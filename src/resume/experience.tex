@@ -17,38 +17,63 @@
     {Mar. 2021 - Present} % Date(s)
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
-      \item {Led a company-wide transition to AWS SageMaker on more
-          than a dozen client accounts, saving \$40,000
-          annually in infrastructure costs and reduced the onboarding time for
-          new analysts from three days to 15 minutes. (Docker, Terraform, Jenkins)}
-      \item {Principal developer of the internal python software
-          development kit, which optimized the engineering environment
-          installation time from 45 minutes to ~30 seconds. (Bash, Make, poetry)}
+      \item {
+        Led a company-wide transition to AWS SageMaker on more than a dozen
+        client accounts, saving \$40,000 annually in infrastructure costs and
+        reduced the onboarding time for new analysts from 3 days to 15 minutes.
+        (Docker, Terraform, Jenkins)
+      }
+      \item {
+        Principal developer of the internal python + SQL software development
+        kit, which optimized the engineering environment installation time from
+        45 minutes to ~30 seconds and removed collaboration barriers between
+        data scientists, engineers, and project managers. (Presto SQL, jinja, bash,
+        make, poetry-python)
+      }
       \end{cvitems}
     }
 
 %---------------------------------------------------------
   \cventry
-    {Data Scientist} % Job title
-    {Antuit, Inc.} % Organization
+    {Data Scientist (Pricing and Marketing)} % Job title
+    {antuit.ai} % Organization
     {Frisco, TX} % Location
     {Sep. 2017 - Mar. 2021} % Date(s)
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
-      \item {Built a custom simulation and nonlinear optimization
-          application for strategic pricing of consumer healthcare
-          products. (Python, Numpy, nlopt)}
-      \item {Wrote the ETL pipelines that translated client data into
-          an analytics ready data warehouse that also fed back to a
-          client-facing trade promotion optimization web
-          application. (Spark, Kubernetes, Argo, Azure) }
-      \item {Derived MY2021 MSRP recommendations for an
-          international motorcycle company. (Databricks, hyperopt)}
-      \item {Modeled contractor costs for a warehouse trust fund and
-          deployed the model/report into our client's
-          infrastructure. (Denodo, Excel, Python)}
-      \item {Modeled personalization, customer churn, and lifetime value
-          (CLTV) for a membership program with over 1MM members. (R)}
+      \item {
+          Wrote an optimization algorithm for strategic pricing of consumer
+          healthcare products in 11 countries, modeling more than \$5Bn in
+          revenue across 8 product categories per country.
+          (Python, Numpy, nlopt)
+      }
+      \item {
+          Created ETL pipelines that prepared 1+ TB consumer healthcare
+          product sales for a data warehouse.   I also designed over 50 custom
+          views in the warehouse that reduced the average data scientist query
+          time from 5 minutes to a few seconds and reduced the team's query
+          costs by 80 percent. (Spark SQL/pyspark, Kubernetes, Azure)
+      }
+      % \item {
+      %     Optimized MY2021 MSRP recommendations for an international motorcycle
+      %     company, identifying opportunities targeting multiple strategic
+      %     options - dealer revenue, manufacturer revenue/margin, or market
+      %     penetration by motorcycle model. (Databricks, hyperopt)
+      % }
+      % \item {
+      %     Modeled contractor costs for a warehouse trust fund and
+      %     deployed the model/report into our client's
+      %     infrastructure. (Denodo, Excel, Python)
+      % }
+      \item {
+          Built market-mix models for three clients, solving for product
+          recommendations related to optimal pricing, personalization, customer
+          churn, and lifetime value (CLTV) for over 1MM program members.  In
+          these projects I had the opportunity to benchmark traditional methods
+          like survival and mixed-effects modeling against newer, more
+          sophisticated techniques, such as using an LSTM to predict
+          cross-product purchasing behavior. (python, scipy, R, lmer, numpy)
+      }
       \end{cvitems}
     }
 
